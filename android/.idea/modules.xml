@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example.iml" filepath="$PROJECT_DIR$/.idea/modules/Example.iml" group="Example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Example/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1401412929/react-native-app-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/1401412929/react-native-app-auth.iml" group="Example/react-native-app-auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/270383121/react-native-cookies_cookies.iml" filepath="$PROJECT_DIR$/.idea/modules/270383121/react-native-cookies_cookies.iml" group="Example/react-native-cookies_cookies" />
+    </modules>
+  </component>
+</project>
