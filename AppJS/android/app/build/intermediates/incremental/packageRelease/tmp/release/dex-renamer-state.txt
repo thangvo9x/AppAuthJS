@@ -1,0 +1,4 @@
+#Thu Apr 29 14:53:24 ICT 2021
+base.0=/Users/thang/Desktop/AppAuthJS/AppJS/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

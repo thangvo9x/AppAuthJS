@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example.iml" filepath="$PROJECT_DIR$/.idea/modules/Example.iml" group="Example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Example/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1401412929/react-native-app-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/1401412929/react-native-app-auth.iml" group="Example/react-native-app-auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1285888180/react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1285888180/react-native-async-storage_async-storage.iml" group="Example/react-native-async-storage_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/270383121/react-native-cookies_cookies.iml" filepath="$PROJECT_DIR$/.idea/modules/270383121/react-native-cookies_cookies.iml" group="Example/react-native-cookies_cookies" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1302010575/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1302010575/react-native-gesture-handler.iml" group="Example/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/615702694/react-native-inappbrowser-reborn.iml" filepath="$PROJECT_DIR$/.idea/modules/615702694/react-native-inappbrowser-reborn.iml" group="Example/react-native-inappbrowser-reborn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-706101779/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-706101779/react-native-reanimated.iml" group="Example/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2048047992/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/2048047992/react-native-safe-area-context.iml" group="Example/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2011402640/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/2011402640/react-native-screens.iml" group="Example/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1270345218/react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/1270345218/react-native-webview.iml" group="Example/react-native-webview" />
+    </modules>
+  </component>
+</project>
