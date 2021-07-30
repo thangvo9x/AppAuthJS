@@ -199,11 +199,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>react-native-cookies.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>react-native-safe-area-context.xcscheme</key>
 		<dict>
 			<key>isShown</key>

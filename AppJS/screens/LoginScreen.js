@@ -23,7 +23,6 @@ import {
   FormValue,
   Heading,
 } from "../components";
-import CookieManager from "@react-native-cookies/cookies";
 import jwt_decode from "jwt-decode";
 
 import qs from "qs"; // npm install --save qs
@@ -52,11 +51,13 @@ const configs = {
   },
   topenid: {
     title: "TopenID",
+    // issuer: "https://dev.citizen.com.vn",
     redirect_uri: "mobilepoc://welcome",
-    client_id: "zSi17c_AZYsZhbK1Gw5GBGYRg8ka", // The Application ID of your Application Registration
+    client_id: "7XyYkYJGrcbCAZq6FcZ397G8NuYa", // The Application ID of your Application Registration
+    client_secret: "ffGYQvReWkI5kMdU0r1ysGpvn8wa",
     authorization_endpoint:
-      "https://is-dev.hungthinhcorp.com.vn/oauth2/authorize",
-    token_endpoint: "https://is-dev.hungthinhcorp.com.vn/oauth2/token",
+      "https://dev.citizen.com.vn/oauth2/authorize",
+    token_endpoint: "https://dev.citizen.com.vn/oauth2/token",
     code_challenge_method: "S256",
     response_type: "code",
     scope: "openid profile",
@@ -110,7 +111,7 @@ const LoginScreen = ({ navigation }) => {
 
     if (!code) return;
 
-    const { token_endpoint, grant_type, client_id, redirect_uri } = configs[
+    const { token_endpoint, grant_type, client_secret, client_id, redirect_uri } = configs[
       "topenid"
     ];
 
@@ -137,6 +138,7 @@ const LoginScreen = ({ navigation }) => {
         code,
         code_verifier,
         client_id,
+        client_secret,
         redirect_uri,
         grant_type,
       };
@@ -151,7 +153,7 @@ const LoginScreen = ({ navigation }) => {
         .then((resp) => resp.json())
         .then(async (user) => {
           InAppBrowser.close();
-          //   console.log("navigation", navigation);
+            console.log("user", user);
           await AsyncStorage.setItem("@user", JSON.stringify(user));
           navigation.push("WelcomeScreen", { user });
         })
@@ -403,9 +405,12 @@ const LoginScreen = ({ navigation }) => {
       const authorizationUrl =
         authorization_endpoint + "?" + qs.stringify(params);
 
+        console.log(authorizationUrl);
+
       await AsyncStorage.setItem("code_verifier", code_verifier || "");
       await AsyncStorage.setItem("state", state);
 
+      // const deepLink = getDeepLink();
       if (await InAppBrowser.isAvailable()) {
         await InAppBrowser.open(authorizationUrl, {
           // iOS Properties

@@ -94,7 +94,7 @@ export default class WelcomeScreen extends Component {
     const { params } = this.props.route;
 
     const { user } = params || {};
-    // console.log("code vao roi", params.user);
+    console.log("code vao roi", params.user);
 
     if (user) {
       // Get and Save the access token request, user info...

@@ -193,8 +193,6 @@ PODS:
   - react-native-app-auth (6.2.0):
     - AppAuth (= 1.4.0)
     - React-Core
-  - react-native-cookies (6.0.7):
-    - React-Core
   - react-native-safe-area-context (3.2.0):
     - React-Core
   - react-native-webview (11.4.3):
@@ -317,7 +315,6 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-app-auth (from `../node_modules/react-native-app-auth`)
-  - "react-native-cookies (from `../node_modules/@react-native-cookies/cookies`)"
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-webview (from `../node_modules/react-native-webview`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -375,8 +372,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-app-auth:
     :path: "../node_modules/react-native-app-auth"
-  react-native-cookies:
-    :path: "../node_modules/@react-native-cookies/cookies"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   react-native-webview:
@@ -433,7 +428,6 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 8ca588cc921e70590820ce72b8789b02c67cce38
   React-jsinspector: b14e62ebe7a66e9231e9581279909f2fc3db6606
   react-native-app-auth: 65e59e33e956bd6d83599c22b8f9bea529a0ea5c
-  react-native-cookies: 6004d512ffc6f2c498c5b70cda0bc040350c0585
   react-native-safe-area-context: f0906bf8bc9835ac9a9d3f97e8bde2a997d8da79
   react-native-webview: d749ba1348c17c7225391e84ac4a0c1c90c2c8ee
   React-RCTActionSheet: 910163b6b09685a35c4ebbc52b66d1bfbbe39fc5
@@ -455,4 +449,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 6b10d89aa3482b722cc2025cb16bc9ab987917ec
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
