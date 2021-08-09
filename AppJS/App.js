@@ -1,41 +1,16 @@
-import React from "react";
-import { createStackNavigator } from "@react-navigation/stack";
-import { NavigationContainer } from "@react-navigation/native";
+import React from 'react';
 
-import LoginScreen from "./screens/LoginScreen";
-import WelcomeScreen from "./screens/WelcomeScreen";
-import AuthenticationScreen from "./screens/AuthenticationScreen";
+import { Provider } from 'react-redux';
+import { store } from './App/redux/store';
 
-const Stack = createStackNavigator();
+import AppWithNavigationState from 'navigations';
 
-export default function App() {
-  const linking = {
-    prefixes: ["mobilepoc://"],
-    config: {
-      screens: {
-        WelcomeScreen: "welcome",
-      },
-    },
-  };
-
+const App = () => {
   return (
-    <NavigationContainer linking={linking}>
-      <Stack.Navigator initialRouteName="AuthenticationScreen">
-        <Stack.Screen
-          name="LoginScreen"
-          options={{ header: () => null }}
-          component={LoginScreen}
-        />
-        <Stack.Screen
-          name="WelcomeScreen"
-          options={{ header: () => null }}
-          component={WelcomeScreen}
-        />
-        <Stack.Screen
-          name="AuthenticationScreen"
-          component={AuthenticationScreen}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Provider store={store}>
+      <AppWithNavigationState />
+    </Provider>
   );
-}
+};
+
+export default App;
