@@ -1,7 +1,8 @@
 import React from 'react';
 
 import { Provider } from 'react-redux';
-import { store } from './App/redux/store';
+import './ReactotronConfig';
+import store from './App/redux/store';
 
 import AppWithNavigationState from 'navigations';
 

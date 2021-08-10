@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { memo, useEffect } from 'react';
 import { Dimensions, StyleSheet, ImageBackground, Linking } from 'react-native';
 
 import { Button, ButtonContainer } from 'components';
-import jwt_decode from 'jwt-decode';
 
 import qs from 'qs'; // npm install --save qs
 import randomString from 'random-string'; // npm install --save random-string
@@ -10,52 +9,16 @@ import Hashes from 'jshashes'; // npm install --save jshashes
 import URL from 'url-parse'; // npm install
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { InAppBrowser } from 'react-native-inappbrowser-reborn';
-import { getDeepLink } from 'utils/utils';
-import { Images } from 'configs';
+import { Config, Colors, Images } from 'configs';
 import Routes from 'utils/route';
+import { connect } from 'react-redux';
+import { loginPhoneSuccess } from 'actions/auth';
+
+import { sha256base64urlencode } from 'utils/utils';
 
 const { height } = Dimensions.get('window');
 
-const configs = {
-  identityserver: {
-    issuer: 'https://demo.identityserver.io',
-    clientId: 'interactive.public',
-    redirectUrl: 'io.identityserver.demo:/oauthredirect',
-    additionalParameters: {},
-    scopes: ['openid', 'profile', 'email', 'offline_access'],
-
-    // serviceConfiguration: {
-    //   authorizationEndpoint: 'https://demo.identityserver.io/connect/authorize',
-    //   tokenEndpoint: 'https://demo.identityserver.io/connect/token',
-    //   revocationEndpoint: 'https://demo.identityserver.io/connect/revoke'
-    // }
-  },
-  topenid: {
-    title: 'TopenID',
-    // issuer: "https://dev.citizen.com.vn",
-    redirect_uri: 'mobilepoc://welcome',
-    client_id: '7XyYkYJGrcbCAZq6FcZ397G8NuYa', // The Application ID of your Application Registration
-    client_secret: 'ffGYQvReWkI5kMdU0r1ysGpvn8wa',
-    authorization_endpoint: 'https://dev.citizen.com.vn/oauth2/authorize',
-    token_endpoint: 'https://dev.citizen.com.vn/oauth2/token',
-    code_challenge_method: 'S256',
-    response_type: 'code',
-    scope: 'openid profile',
-    grant_type: 'authorization_code',
-  },
-};
-
-function sha256base64urlencode(str) {
-  // https://tools.ietf.org/html/rfc7636#appendix-A
-  // https://tools.ietf.org/html/rfc4648#section-5
-  return new Hashes.SHA256()
-    .b64(str)
-    .replace(/\+/g, '-')
-    .replace(/\//g, '_')
-    .replace(/[=]+/g, '');
-}
-
-const LoginScreen = ({ navigation }) => {
+const Login = memo(({ account, loginPhoneSuccess, navigation }) => {
   // let webview = useRef(null);
   // React.useEffect(() => {
   //   prefetchConfiguration({
@@ -99,7 +62,7 @@ const LoginScreen = ({ navigation }) => {
       client_secret,
       client_id,
       redirect_uri,
-    } = configs.topenid;
+    } = Config.TOPENID;
 
     Promise.all([
       AsyncStorage.getItem('state'),
@@ -140,7 +103,8 @@ const LoginScreen = ({ navigation }) => {
         .then(async (user) => {
           InAppBrowser.close();
           console.log('user', user);
-          await AsyncStorage.setItem('@user', JSON.stringify(user));
+          // await AsyncStorage.setItem('@user', JSON.stringify(user));
+          loginPhoneSuccess(user);
           navigation.push(Routes.Dashboard, { user });
         })
         .catch((err) => {
@@ -367,7 +331,7 @@ const LoginScreen = ({ navigation }) => {
         response_type,
         scope,
         code_challenge_method,
-      } = configs.topenid;
+      } = Config.TOPENID;
 
       // PKCE - https://tools.ietf.org/html/rfc7636
       //  - Protect against other apps who register our application url scheme
@@ -412,7 +376,7 @@ const LoginScreen = ({ navigation }) => {
           enableBarCollapsing: false,
           // Android Properties
           showTitle: true,
-          toolbarColor: '#347c4c',
+          toolbarColor: Colors.Primary,
           secondaryToolbarColor: 'black',
           enableUrlBarHiding: true,
           enableDefaultShare: false,
@@ -473,7 +437,8 @@ const LoginScreen = ({ navigation }) => {
         ) : null} */}
     </ImageBackground>
   );
-};
+});
+
 const styles = StyleSheet.create({
   image: {
     flex: 1,
@@ -487,4 +452,12 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
 });
-export default LoginScreen;
+
+const mapStateToProps = (state) => ({
+  account: state.auth.account,
+});
+const mapDispatchToProps = {
+  loginPhoneSuccess,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login);

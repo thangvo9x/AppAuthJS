@@ -1,12 +1,13 @@
-import { NativeModules } from 'react-native';
 import Reactotron from 'reactotron-react-native';
+import { reactotronRedux as reduxPlugin } from 'reactotron-redux';
 
-let scriptHostname;
+Reactotron.configure({ name: 'TopenX' }) // controls connection & communication settings
+  .useReactNative() // add all built-in react native plugins
+  .use(reduxPlugin());
+
 if (__DEV__) {
-  const scriptURL = NativeModules.SourceCode.scriptURL;
-  scriptHostname = scriptURL.split('://')[1].split(':')[0];
+  Reactotron.connect();
+  Reactotron.clear();
 }
 
-Reactotron.configure({ host: scriptHostname }) // controls connection & communication settings
-  .useReactNative() // add all built-in react native plugins
-  .connect(); // let's connect!
+console.tron = Reactotron;

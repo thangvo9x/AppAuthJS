@@ -3,16 +3,14 @@ import { View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Dashboard from 'containers/Dashboard';
 import Routes from 'utils/route';
-import { StyleSheet, TouchableOpacity } from 'react-native';
-import { Icon } from '@ant-design/react-native';
+import { StyleSheet } from 'react-native';
 
 import { Colors } from 'configs';
 import { useNavigation } from '@react-navigation/native';
 
 const Stack = createStackNavigator();
-import i18n from 'i18n-js';
-import SvgLogin from 'svgs/Toolbar/SvgLogin';
-import SvgLanguage from 'svgs/Toolbar/SvgLanguage';
+
+import { LoginToolbar, MenuBurger } from 'components';
 
 const DashboardStack = memo(() => {
   const navigation = useNavigation();
@@ -25,32 +23,9 @@ const DashboardStack = memo(() => {
         options={{
           title: '',
           headerLeft: () => (
-            <>
-              <TouchableOpacity
-                style={styles.btnMenu}
-                onPress={() => navigation.toggleDrawer()}
-              >
-                <Icon name={'menu'} color={Colors.Black} />
-              </TouchableOpacity>
-            </>
+            <MenuBurger onPress={() => navigation.toggleDrawer()} />
           ),
-
-          headerRight: () => (
-            <View style={styles.wrapRight}>
-              <TouchableOpacity
-                style={styles.btnRight}
-                onPress={() => navigation.toggleDrawer()}
-              >
-                <SvgLanguage />
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={styles.btnRight}
-                onPress={() => navigation.toggleDrawer()}
-              >
-                <SvgLogin />
-              </TouchableOpacity>
-            </View>
-          ),
+          headerRight: () => <LoginToolbar />,
           headerTitleAlign: 'left',
           headerStyle: {
             backgroundColor: Colors.Gray2,

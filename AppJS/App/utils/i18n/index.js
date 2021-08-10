@@ -4,8 +4,8 @@ import { Constants } from 'configs';
 const pluralize = require('pluralize');
 
 const translations = {
-  en: require('./translations/en.json'),
   vi: require('./translations/vi.json'),
+  en: require('./translations/en.json'),
 };
 
 i18n.translations = translations;
@@ -15,7 +15,7 @@ i18n.fallbacks = true;
 export const getDeviceLocale = () => {
   return (
     RNLocalize.findBestAvailableLanguage(Object.keys(translations))
-      ?.languageTag || 'en'
+      ?.languageTag || 'vi'
   );
 };
 

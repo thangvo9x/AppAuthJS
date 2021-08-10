@@ -7,11 +7,11 @@ import {
   StyleSheet,
 } from 'react-native';
 import { Images, Colors } from 'configs';
-import Text from 'components/Text';
+
 import t from 'i18n';
 import { IconOutline } from '@ant-design/icons-react-native';
 import Routes from 'utils/route';
-import { VersionText } from 'components/common/VersionText';
+import { Text, VersionText } from 'components';
 import { useNavigation } from '@react-navigation/native';
 
 // eslint-disable-next-line no-shadow

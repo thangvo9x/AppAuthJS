@@ -9,6 +9,7 @@ module.exports = function (api) {
         root: ['./App'],
         alias: {
           'components/*': ['./App/components/*'],
+          components: ['./App/components/index'],
           'configs/*': ['./App/configs/*'],
           configs: ['./App/configs/index'],
           'containers/*': ['./App/containers/*'],
@@ -16,6 +17,7 @@ module.exports = function (api) {
           navigations: ['./App/navigations/index'],
           'utils/*': ['./App/utils/*'],
           'actions/*': ['./App/redux/actions/*'],
+          'hooks/*': ['./App/hooks/*'],
           images: './App/assets/images',
           'svgs/*': ['./App/svgs/*'],
         },

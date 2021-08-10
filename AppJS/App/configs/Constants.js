@@ -1,5 +1,7 @@
 import { Platform, Dimensions, StatusBar } from 'react-native';
 
+const USE_REACTOTRON = true;
+
 const X_WIDTH = 375;
 const X_HEIGHT = 812;
 
@@ -58,6 +60,7 @@ export const DEEP_LINK = {
 };
 
 export const Constants = {
+  USE_REACTOTRON,
   paddingTop: getStatusBarHeight(),
   width: Dimensions.get('window').width,
   height: Dimensions.get('window').height,

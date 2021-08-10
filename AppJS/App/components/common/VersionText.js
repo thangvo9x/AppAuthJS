@@ -1,11 +1,16 @@
-import Text from 'components/Text';
-import { AppRNConfig, Colors } from 'configs/';
-import { t } from 'i18n-js';
 import React, { memo } from 'react';
 import { StyleSheet } from 'react-native';
 
-const VersionText = memo(() => (
-  <Text type="Label" color={Colors.LightPrimary} style={styles.txtVersion}>
+import { Text } from 'components';
+import { AppRNConfig, Colors } from 'configs';
+import { t } from 'i18n-js';
+
+const VersionText = memo(({ style }) => (
+  <Text
+    type="Label"
+    color={Colors.LightPrimary}
+    style={[styles.txtVersion, style && style]}
+  >
     {t('text_version') + ' '}
     {AppRNConfig.VERSION}
   </Text>
@@ -20,4 +25,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { VersionText };
+export default VersionText;

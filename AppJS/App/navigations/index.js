@@ -16,23 +16,7 @@ const Stack = createStackNavigator();
 
 let NavStack = memo(() => {
   return (
-    <Stack.Navigator
-      initialRouteName={Routes.Main}
-      screenOptions={{
-        headerTintColor: '#000',
-        headerBackTitle: true,
-        headerStyle: {
-          elevation: 0,
-          shadowRadius: 0,
-          shadowOffset: {
-            height: 0,
-          },
-        },
-        headerLeftContainerStyle: {
-          marginLeft: 12,
-        },
-      }}
-    >
+    <Stack.Navigator initialRouteName={Routes.Main}>
       <Stack.Screen
         name={Routes.Main}
         options={{ header: () => null }}
@@ -48,19 +32,19 @@ let NavStack = memo(() => {
 });
 
 const App = memo(() => {
-  const linking = {
-    prefixes: ['mobilepoc://'],
-    config: {
-      screens: {
-        DashboardScreen: 'welcome',
-      },
-    },
-  };
+  // const linking = {
+  //   prefixes: ['mobilepoc://'],
+  //   config: {
+  //     screens: {
+  //       Dashboard: 'welcome',
+  //     },
+  //   },
+  // };
   return (
     <>
       <StatusBar barStyle={'dark-content'} />
       <SafeAreaProvider>
-        <NavigationContainer linking={linking} ref={navigationRef}>
+        <NavigationContainer ref={navigationRef}>
           <NavStack />
         </NavigationContainer>
       </SafeAreaProvider>
