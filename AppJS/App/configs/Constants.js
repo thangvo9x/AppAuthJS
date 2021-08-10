@@ -8,7 +8,7 @@ const X_HEIGHT = 812;
 const XSMAX_WIDTH = 414;
 const XSMAX_HEIGHT = 896;
 
-export const FONT_PREFIX = 'SFProDisplay';
+export const FONT_PREFIX = 'SVN-Gilroy';
 
 const { height: W_HEIGHT, width: W_WIDTH } = Dimensions.get('window');
 export const LANGUAGE = {

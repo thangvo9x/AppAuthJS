@@ -51,10 +51,10 @@ export default ({
     style = { ..._style };
   }
 
-  let fontStyle = 'Regular';
+  let fontStyle = '';
   if (style.fontWeight) {
     if (style.fontWeight === 'normal') {
-      fontStyle = 'Regular';
+      fontStyle = '';
     } else if (style.fontWeight === 'bold') {
       fontStyle = 'Bold';
     }
@@ -98,7 +98,7 @@ export default ({
     fontStyle = 'Ultralight';
   }
   if (regular) {
-    fontStyle = 'Regular';
+    fontStyle = '';
   }
   let textSize = size;
   let lineHeight = size;
@@ -124,7 +124,7 @@ export default ({
       {...props}
       style={[
         {
-          fontFamily: FONT_PREFIX + '-' + fontStyle,
+          fontFamily: FONT_PREFIX + fontStyle,
           color: hilight ? Colors.Primary : color,
           fontSize: textSize,
           lineHeight: lineHeight,
