@@ -1,3 +1,5 @@
+/** @format */
+
 const Routes = {
   Main: 'Main',
   Auth: 'Auth',

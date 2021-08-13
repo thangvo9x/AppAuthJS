@@ -1,54 +1,55 @@
-import React, { useCallback } from 'react';
-import { StyleSheet, Linking, View, TouchableOpacity } from 'react-native';
+/** @format */
 
 import AsyncStorage from '@react-native-community/async-storage';
+import { saveStateStatus } from 'actions/auth';
+import { changeLanguage } from 'actions/language';
+import { Config, Constants } from 'configs';
 import qs from 'qs';
 import randomString from 'random-string';
-
-import { Config, Colors } from 'configs';
-import { connect, useDispatch } from 'react-redux';
-import { changeLanguage } from 'actions/language';
-import { setLocale } from 'utils/i18n';
-import { sha256base64urlencode } from 'utils/utils';
+import React from 'react';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import { InAppBrowser } from 'react-native-inappbrowser-reborn';
-
+import { connect, useDispatch } from 'react-redux';
 import SvgLogin from 'svgs/Toolbar/SvgLogin';
 import SvgLogout from 'svgs/Toolbar/SvgLogout';
-import SvgFlagVI from 'svgs/Toolbar/SvgFlagVI';
-import SvgFlagEN from 'svgs/Toolbar/SvgFlagEN';
+import { setLocale } from 'utils/i18n';
+import { openLink, sha256base64urlencode } from 'utils/utils';
+import LanguageFlag from './LanguageFlag';
 
-const LoginToolbar = ({ currentLanguage, isLoggedIn }) => {
+const {
+  LANGUAGE: { Vietnamese, English },
+} = Constants;
+
+const {
+  client_id,
+  authorization_endpoint,
+  redirect_uri,
+  response_type,
+  scope,
+  code_challenge_method,
+  logout_endpoint,
+  redirect_logout,
+} = Config.TOPENID;
+
+const LoginToolbar = ({ stateAuth, idToken, currentLanguage, isLoggedIn }) => {
   const dispatch = useDispatch();
 
   const onChangeLanguage = () => {
-    if (currentLanguage == 'vi') {
-      setLocale('en'); //set global
-      dispatch(changeLanguage('en'));
-    } else if (currentLanguage == 'en') {
-      setLocale('vi'); //set global
-      dispatch(changeLanguage('vi'));
+    if (currentLanguage === Vietnamese.value) {
+      setLocale(English.value);
+      dispatch(changeLanguage(English.value));
+    } else if (currentLanguage === English.value) {
+      setLocale(Vietnamese.value);
+      dispatch(changeLanguage(Vietnamese.value));
     }
   };
 
-  const openLink = async () => {
+  const _handleLogin = async () => {
     try {
-      const {
-        client_id,
-        authorization_endpoint,
-        redirect_uri,
-        response_type,
-        scope,
-        code_challenge_method,
-      } = Config.TOPENID;
-
-      // PKCE - https://tools.ietf.org/html/rfc7636
-      //  - Protect against other apps who register our application url scheme
       const code_verifier =
         code_challenge_method && randomString({ length: 45 });
       const code_challenge =
         code_challenge_method && sha256base64urlencode(code_verifier);
-
-      // Protect against rogue web pages that try redirect the user to authorize (XSRF)
       const state = randomString();
 
       const params = {
@@ -59,66 +60,53 @@ const LoginToolbar = ({ currentLanguage, isLoggedIn }) => {
         state,
         code_challenge_method,
         code_challenge,
+        lang: currentLanguage,
       };
       const authorizationUrl =
         authorization_endpoint + '?' + qs.stringify(params);
-
       console.warn(authorizationUrl);
 
       await AsyncStorage.setItem('code_verifier', code_verifier || '');
       await AsyncStorage.setItem('state', state);
+      dispatch(saveStateStatus(state));
 
-      // const deepLink = getDeepLink();
-      if (await InAppBrowser.isAvailable()) {
-        await InAppBrowser.open(authorizationUrl, {
-          // iOS Properties
-          ephemeralWebSession: false,
-          dismissButtonStyle: 'close',
-          preferredBarTintColor: Colors.Primary,
-          preferredControlTintColor: 'white',
-          readerMode: true,
-          animated: true,
-          modalPresentationStyle: 'fullScreen',
-          modalTransitionStyle: 'crossDissolve',
-          modalEnabled: false,
-          enableBarCollapsing: true,
-          // Android Properties
-          showTitle: true,
-          toolbarColor: Colors.Primary,
-          secondaryToolbarColor: 'black',
-          enableUrlBarHiding: true,
-          enableDefaultShare: false,
-          forceCloseOnRedirection: false,
-          // Specify full animation resource identifier(package:anim/name)
-          // or only resource name(in case of animation bundled with app).
-          animations: {
-            startEnter: 'slide_in_left',
-            startExit: 'slide_out_left',
-            endEnter: 'slide_in_left',
-            endExit: 'slide_out_right',
-          },
-          hasBackButton: true,
-        });
-      } else {
-        Linking.openURL(authorizationUrl);
-      }
+      openLink(authorizationUrl); // openBrowser
     } catch (error) {
-      // Alert.alert(error.message);
-      // console.error(error);
+      console.error(['handleLogin', error]);
+    } finally {
+      InAppBrowser.close();
     }
   };
+
+  const _handleLogout = async () => {
+    try {
+      const params = {
+        id_token_hint: idToken,
+        post_logout_redirect_uri: redirect_logout,
+        state: stateAuth,
+      };
+      const logoutUrl = logout_endpoint + '?' + qs.stringify(params);
+
+      console.warn(['logoutUrl', logoutUrl]);
+
+      openLink(logoutUrl); // openBrowser
+    } catch (error) {
+      console.error(['handleLogout', error]);
+    } finally {
+      InAppBrowser.close();
+    }
+  };
+
   return (
     <View style={styles.wrapRight}>
-      <TouchableOpacity
-        style={[styles.btnRight, { marginTop: 10 }]}
+      <LanguageFlag
+        currentLanguage={currentLanguage}
         onPress={onChangeLanguage}
-      >
-        {currentLanguage == 'vi' ? <SvgFlagEN /> : <SvgFlagVI />}
-      </TouchableOpacity>
+      />
       <TouchableOpacity
         activeOpacity={0.7}
-        style={[styles.btnRight, { marginTop: 7 }]}
-        onPress={openLink}
+        style={styles.btnRight}
+        onPress={() => (!isLoggedIn ? _handleLogin() : _handleLogout())}
       >
         {!isLoggedIn ? <SvgLogin /> : <SvgLogout />}
       </TouchableOpacity>
@@ -127,27 +115,20 @@ const LoginToolbar = ({ currentLanguage, isLoggedIn }) => {
 };
 
 const styles = StyleSheet.create({
-  btnMenu: {
-    paddingLeft: 15,
-    paddingTop: 15,
-    width: 90,
-    height: 90,
-    justifyContent: 'center',
-  },
   wrapRight: {
     flexDirection: 'row',
   },
   btnRight: {
-    paddingTop: 20,
     paddingRight: 15,
+    marginTop: 7,
   },
 });
 
 const mapStateToProps = (state) => ({
   isLoggedIn: state.auth.isLoggedIn,
+  idToken: state.auth.account.idToken,
+  stateAuth: state.auth.account.state,
   currentLanguage: state.language.currentLanguage,
 });
-const mapDispatchToProps = {
-  changeLanguage,
-};
-export default connect(mapStateToProps, mapDispatchToProps)(LoginToolbar);
+
+export default connect(mapStateToProps)(LoginToolbar);

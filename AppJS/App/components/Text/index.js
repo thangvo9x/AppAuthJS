@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react';
 import { StyleSheet, Text } from 'react-native';
 import { Colors, Constants } from 'configs';

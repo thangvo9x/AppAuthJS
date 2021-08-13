@@ -1,3 +1,5 @@
+/** @format */
+
 import { Platform, Dimensions, StatusBar } from 'react-native';
 
 const USE_REACTOTRON = true;
@@ -12,7 +14,7 @@ export const FONT_PREFIX = 'SVN-Gilroy';
 
 const { height: W_HEIGHT, width: W_WIDTH } = Dimensions.get('window');
 export const LANGUAGE = {
-  English: { label: 'English (EN)', value: 'en' },
+  English: { label: 'English (EN)', code: 'en' },
   Vietnamese: { label: 'Tiếng Việt (VN)', value: 'vi' },
   DEFAULT: 'vi',
 };

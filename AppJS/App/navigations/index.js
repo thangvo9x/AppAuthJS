@@ -1,7 +1,8 @@
+/** @format */
+
 import * as React from 'react';
 import { memo } from 'react';
 import { StatusBar } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -16,15 +17,30 @@ const Stack = createStackNavigator();
 
 let NavStack = memo(() => {
   return (
-    <Stack.Navigator initialRouteName={Routes.Main}>
+    <Stack.Navigator
+      initialRouteName={Routes.Main}
+      screenOptions={{
+        headerTintColor: '#000',
+        headerBackTitle: true,
+        headerStyle: {
+          elevation: 1,
+          shadowRadius: 1,
+          shadowOffset: {
+            height: 1,
+          },
+          borderBottomColor: 'rgba(201, 206, 214, 0.5)',
+          borderBottomWidth: 1,
+        },
+      }}
+    >
       <Stack.Screen
         name={Routes.Main}
-        options={{ header: () => null }}
+        options={{ headerShown: false }}
         component={MainNavigator}
       />
       <Stack.Screen
         name={Routes.Auth}
-        options={{ header: () => null }}
+        options={{ headerShown: false }}
         component={AuthNavigator}
       />
     </Stack.Navigator>
@@ -37,17 +53,16 @@ const App = memo(() => {
   //   config: {
   //     screens: {
   //       Dashboard: 'welcome',
+  //       Dashboard: 'logout',
   //     },
   //   },
   // };
   return (
     <>
       <StatusBar barStyle={'dark-content'} />
-      <SafeAreaProvider>
-        <NavigationContainer ref={navigationRef}>
-          <NavStack />
-        </NavigationContainer>
-      </SafeAreaProvider>
+      <NavigationContainer ref={navigationRef}>
+        <NavStack />
+      </NavigationContainer>
     </>
   );
 });

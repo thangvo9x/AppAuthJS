@@ -1,3 +1,5 @@
+/** @format */
+
 import { useIsFocused } from '@react-navigation/native';
 import { useCallback, useEffect } from 'react';
 import { BackHandler } from 'react-native';

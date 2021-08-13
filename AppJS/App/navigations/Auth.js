@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useCallback, useEffect } from 'react';
 import { View, ActivityIndicator, StyleSheet } from 'react-native';
 import { CommonActions, useNavigation } from '@react-navigation/native';

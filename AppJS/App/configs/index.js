@@ -1,3 +1,5 @@
+/** @format */
+
 import AppRNConfig from 'react-native-config';
 import Images from './Images';
 import { Colors } from './Colors';

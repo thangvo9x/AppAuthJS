@@ -1,3 +1,5 @@
+/** @format */
+
 import { CHANGE_LANGUAGE } from 'actions/language';
 
 const initialState = {

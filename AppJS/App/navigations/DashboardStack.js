@@ -1,19 +1,23 @@
-import React, { memo } from 'react';
-import { View } from 'react-native';
-import { createStackNavigator } from '@react-navigation/stack';
-import Dashboard from 'containers/Dashboard';
-import Routes from 'utils/route';
-import { StyleSheet } from 'react-native';
+/** @format */
 
-import { Colors } from 'configs';
 import { useNavigation } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { LoginToolbar, Logo, MenuBurger } from 'components';
+import Dashboard from 'containers/Dashboard';
+import React, { memo } from 'react';
+import { View, StyleSheet } from 'react-native';
+
+import Routes from 'utils/route';
+import { useSelector } from 'react-redux';
 
 const Stack = createStackNavigator();
 
-import { LoginToolbar, MenuBurger } from 'components';
-
 const DashboardStack = memo(() => {
   const navigation = useNavigation();
+
+  const [isLoggedIn] = useSelector((state) => {
+    return [state.auth.isLoggedIn];
+  });
 
   return (
     <Stack.Navigator>
@@ -21,18 +25,17 @@ const DashboardStack = memo(() => {
         component={Dashboard}
         name={Routes.Dashboard}
         options={{
-          title: '',
+          title: null,
           headerLeft: () => (
-            <MenuBurger onPress={() => navigation.toggleDrawer()} />
+            <View style={styles.rowLogo}>
+              {isLoggedIn && (
+                <MenuBurger onPress={() => navigation.toggleDrawer()} />
+              )}
+              <Logo />
+            </View>
           ),
           headerRight: () => <LoginToolbar />,
           headerTitleAlign: 'left',
-          headerStyle: {
-            backgroundColor: Colors.Gray2,
-            borderBottomColor: 'rgba(201, 206, 214, 0.5)',
-            borderBottomWidth: 1,
-            height: 80,
-          },
         }}
       />
     </Stack.Navigator>
@@ -40,19 +43,11 @@ const DashboardStack = memo(() => {
 });
 
 const styles = StyleSheet.create({
-  btnMenu: {
-    paddingLeft: 15,
-    paddingTop: 15,
-    width: 90,
-    height: 90,
-    justifyContent: 'center',
-  },
-  wrapRight: {
+  rowLogo: {
+    flex: 1,
     flexDirection: 'row',
-  },
-  btnRight: {
-    paddingTop: 15,
-    paddingRight: 15,
+    alignItems: 'center',
+    paddingLeft: 15,
   },
 });
 export default DashboardStack;

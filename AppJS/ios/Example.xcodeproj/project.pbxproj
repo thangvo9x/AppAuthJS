@@ -17,6 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ExampleTests.m */; };
+		39B3235518CF4818AA9BC611 /* SVN-GilroySemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 940B4512736E44B7B396B0B9 /* SVN-GilroySemiBold.otf */; };
 		52DC7CD5F3D31841AA94C9F0 /* libPods-Example-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B864F582402D17FA4B48AEA1 /* libPods-Example-tvOS.a */; };
 		5C829ABDEA82436D8DE7B2E2 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB428016BF4A7B9DD525AC /* SFProDisplay-Bold.otf */; };
 		7590CCEACB1158EF3C9D15F2 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33523B654DF08F2521EF9B9E /* libPods-Example.a */; };
@@ -24,11 +25,10 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A622A17BE9E344F8B2CB6BF7 /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF685CD9CA4962BFCAC412 /* antoutline.ttf */; };
 		B604AECF732D6FC8F11D9376 /* libPods-Example-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC447B6598B266EC56AADD16 /* libPods-Example-ExampleTests.a */; };
-		CFB875D49D6648639A158878 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5568A444DB44FFB8D5D4BF /* antfill.ttf */; };
-		EBF654518AEF48D1A1EE284C /* SVN-Gilroy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 34C37F4396A54101996986D2 /* SVN-Gilroy.otf */; };
-		EACFA991513C4BF0904E2BE6 /* SVN-GilroyBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08124C7A561B43189E96C616 /* SVN-GilroyBold.otf */; };
 		BAD5B57AF25241D0ABD09399 /* SVN-GilroyMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9085F62B44D04B73B0E1AA1A /* SVN-GilroyMedium.otf */; };
-		39B3235518CF4818AA9BC611 /* SVN-GilroySemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 940B4512736E44B7B396B0B9 /* SVN-GilroySemiBold.otf */; };
+		CFB875D49D6648639A158878 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5568A444DB44FFB8D5D4BF /* antfill.ttf */; };
+		EACFA991513C4BF0904E2BE6 /* SVN-GilroyBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 08124C7A561B43189E96C616 /* SVN-GilroyBold.otf */; };
+		EBF654518AEF48D1A1EE284C /* SVN-Gilroy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 34C37F4396A54101996986D2 /* SVN-Gilroy.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,7 @@
 		00E356EE1AD99517003FC87E /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		08124C7A561B43189E96C616 /* SVN-GilroyBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SVN-GilroyBold.otf"; path = "../App/assets/fonts/SVN-GilroyBold.otf"; sourceTree = "<group>"; };
 		0AF3430F330C4EC8A778459E /* SFProDisplay-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Regular.otf"; path = "../App/assets/fonts/SFProDisplay-Regular.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = "<group>"; };
@@ -66,11 +67,14 @@
 		2D02E47B1E0B4A5D006451C7 /* Example-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Example-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33523B654DF08F2521EF9B9E /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C37F4396A54101996986D2 /* SVN-Gilroy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SVN-Gilroy.otf"; path = "../App/assets/fonts/SVN-Gilroy.otf"; sourceTree = "<group>"; };
 		3AE15023C30305EE0BE4D3DC /* Pods-Example-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Example-ExampleTests/Pods-Example-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4ADF685CD9CA4962BFCAC412 /* antoutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = antoutline.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antoutline.ttf"; sourceTree = "<group>"; };
 		67145E0B9C52338B7AFEB08B /* Pods-Example-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-Example-ExampleTests/Pods-Example-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Example/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9085F62B44D04B73B0E1AA1A /* SVN-GilroyMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SVN-GilroyMedium.otf"; path = "../App/assets/fonts/SVN-GilroyMedium.otf"; sourceTree = "<group>"; };
 		92AB6697592B83C7171DC404 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		940B4512736E44B7B396B0B9 /* SVN-GilroySemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SVN-GilroySemiBold.otf"; path = "../App/assets/fonts/SVN-GilroySemiBold.otf"; sourceTree = "<group>"; };
 		999827DE23E821C711FCF9F3 /* Pods-Example-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Example-tvOSTests/Pods-Example-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B864F582402D17FA4B48AEA1 /* libPods-Example-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD608347D69D12B904FD0C6D /* Pods-Example-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Example-tvOS/Pods-Example-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,10 +86,6 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF5568A444DB44FFB8D5D4BF /* antfill.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = antfill.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antfill.ttf"; sourceTree = "<group>"; };
 		FDFF011E705E4D7DB3A0CEE9 /* SFProDisplay-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Semibold.otf"; path = "../App/assets/fonts/SFProDisplay-Semibold.otf"; sourceTree = "<group>"; };
-		34C37F4396A54101996986D2 /* SVN-Gilroy.otf */ = {isa = PBXFileReference; name = "SVN-Gilroy.otf"; path = "../App/assets/fonts/SVN-Gilroy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		08124C7A561B43189E96C616 /* SVN-GilroyBold.otf */ = {isa = PBXFileReference; name = "SVN-GilroyBold.otf"; path = "../App/assets/fonts/SVN-GilroyBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9085F62B44D04B73B0E1AA1A /* SVN-GilroyMedium.otf */ = {isa = PBXFileReference; name = "SVN-GilroyMedium.otf"; path = "../App/assets/fonts/SVN-GilroyMedium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		940B4512736E44B7B396B0B9 /* SVN-GilroySemiBold.otf */ = {isa = PBXFileReference; name = "SVN-GilroySemiBold.otf"; path = "../App/assets/fonts/SVN-GilroySemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +268,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				381B77E6C61A6FCDCF83295A /* [CP] Copy Pods Resources */,
+				BFA0584D0A084587B30F4EF5 /* Upload Debug Symbols to Sentry */,
 			);
 			buildRules = (
 			);
@@ -422,7 +423,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export SENTRY_PROPERTIES=sentry.properties\nexport EXTRA_PACKAGER_ARGS=\"--sourcemap-output $DERIVED_FILE_DIR/main.jsbundle.map\"\nexport NODE_BINARY=node\n../node_modules/@sentry/cli/bin/sentry-cli react-native xcode ../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -436,7 +437,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export SENTRY_PROPERTIES=sentry.properties\nexport EXTRA_PACKAGER_ARGS=\"--sourcemap-output $DERIVED_FILE_DIR/main.jsbundle.map\"\nexport NODE_BINARY=node\n../node_modules/@sentry/cli/bin/sentry-cli react-native xcode ../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 		381B77E6C61A6FCDCF83295A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -561,6 +562,20 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		BFA0584D0A084587B30F4EF5 /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Upload Debug Symbols to Sentry";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = " export SENTRY_PROPERTIES=sentry.properties\n../node_modules/@sentry/cli/bin/sentry-cli upload-dsym\n";
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;

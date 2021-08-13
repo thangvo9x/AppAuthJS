@@ -3,12 +3,13 @@ module.exports = {
   plugins: [
     //'@typescript-eslint',
     'promise',
+    'react-hooks',
     //'import',
   ],
   extends: ['@react-native-community', 'eslint:recommended'],
   rules: {
-    'max-len': ['warn', { code: 120 }],
-    'no-console': 2,
+    'max-len': ['warn', { code: 150 }],
+    // 'no-console': 2,
     'no-var': 2,
     eqeqeq: 2,
     'no-prototype-builtins': 1,
@@ -25,6 +26,9 @@ module.exports = {
         allowBind: false,
       },
     ],
+    //hooks
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     //promisee
     // 'promise/prefer-await-to-then': 2,
     // 'promise/prefer-await-to-callbacks': 2,

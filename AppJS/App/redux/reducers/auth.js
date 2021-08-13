@@ -1,5 +1,7 @@
+/** @format */
+
 // import { deleteDefaultAuthToken } from 'utils/Utils';
-import { LOGOUT, LOGIN_PHONE } from '../actions/auth';
+import { LOGOUT, LOGIN_PHONE, SET_STATE_STATUS } from '../actions/auth';
 import jwt_decode from 'jwt-decode';
 
 const initialState = {
@@ -8,7 +10,9 @@ const initialState = {
   isLoggedIn: false,
   account: {
     token: '',
+    idToken: '',
     user: {},
+    state: '',
   },
   isLoggingIn: false,
 };
@@ -17,7 +21,7 @@ export default (state = initialState, action) => {
   const { data } = action;
   switch (action.type) {
     case LOGOUT:
-      //   deleteDefaultAuthToken();
+      // deleteDefaultAuthToken();
       return { ...initialState };
 
     case LOGIN_PHONE.REQUEST:
@@ -36,9 +40,17 @@ export default (state = initialState, action) => {
           ...state.account,
           user: userInfo,
           token: data.access_token,
+          idToken: data.id_token,
         },
       };
-
+    case SET_STATE_STATUS.SUCCESS:
+      return {
+        ...state,
+        account: {
+          ...state.account,
+          state: data,
+        },
+      };
     case LOGIN_PHONE.FAIL:
       return {
         ...state,

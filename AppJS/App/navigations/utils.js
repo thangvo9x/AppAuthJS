@@ -1,3 +1,5 @@
+/** @format */
+
 import * as React from 'react';
 
 // NavigationContainer is referred here - Check NavigationStack

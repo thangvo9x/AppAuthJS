@@ -1,41 +1,39 @@
-import React, { useEffect } from 'react';
-import {
-  ScrollView,
-  Linking,
-  StyleSheet,
-  View,
-  TouchableOpacity,
-} from 'react-native';
-import { connect } from 'react-redux';
-import { t } from 'i18n-js';
-import { Colors, Config } from 'configs';
-import { VersionText, Text } from 'components';
-import SvgWelcome from 'svgs/dashboard/SvgWelcome';
-import URL from 'url-parse'; // npm install
-import qs from 'qs';
-import { InAppBrowser } from 'react-native-inappbrowser-reborn';
-import AsyncStorage from '@react-native-community/async-storage';
+/** @format */
 
-import { loginPhoneSuccess } from 'actions/auth';
+import AsyncStorage from '@react-native-community/async-storage';
+import { Text, VersionText } from 'components';
+import { Config } from 'configs';
+import { t } from 'i18n-js';
+import qs from 'qs';
+import React, { useEffect } from 'react';
+import { Linking, ScrollView, TouchableOpacity, View } from 'react-native';
+import { InAppBrowser } from 'react-native-inappbrowser-reborn';
+import { connect, useDispatch } from 'react-redux';
+
+import SvgDefaultAvatar from 'svgs/dashboard/SvgDefaultAvatar';
 import SvgTopenFintech from 'svgs/dashboard/SvgFintech';
 import SvgMobileApp from 'svgs/dashboard/SvgMobileApp';
-import SvgDefaultAvatar from 'svgs/dashboard/SvgDefaultAvatar';
+import SvgWelcome from 'svgs/dashboard/SvgWelcome';
+import URL from 'url-parse';
+import styles from './styles';
+import { loginPhoneSuccess, logout } from 'actions/auth';
 
-const Dashboard = ({ userInfo, isLoggedIn, loginPhoneSuccess }) => {
+const Dashboard = ({ userInfo, isLoggedIn }) => {
+  const dispatch = useDispatch();
   useEffect(() => {
     Linking.addEventListener('url', handleOpenUrl);
     Linking.getInitialURL().then((url) => {
-      if (url) {
-        handleRedirectUri(url);
-      }
+      // if (url) {
+      handleRedirectUri(url);
+      // }
     });
   }, []);
 
-  useEffect(() => {
-    return () => {
-      Linking.removeEventListener('url', handleOpenUrl);
-    };
-  });
+  // useEffect(() => {
+  //   return () => {
+  //     Linking.removeEventListener('url', handleOpenUrl);
+  //   };
+  // });
 
   const handleOpenUrl = ({ url }) => {
     handleRedirectUri(url);
@@ -45,9 +43,13 @@ const Dashboard = ({ userInfo, isLoggedIn, loginPhoneSuccess }) => {
     const url = new URL(urlString, true);
     const { code, state } = url.query;
 
-    console.log('App url: ', url.query);
+    console.warn(['handleRedirectUri: ', url]);
 
     if (!code) {
+      if (url.host === 'logout') {
+        dispatch(logout());
+        InAppBrowser.close();
+      }
       return;
     }
 
@@ -65,9 +67,9 @@ const Dashboard = ({ userInfo, isLoggedIn, loginPhoneSuccess }) => {
     ]).then(([request_state, request_code_verifier]) => {
       AsyncStorage.removeItem('state');
       AsyncStorage.removeItem('code_verifier');
-      console.log('State:', state, request_state);
+      console.warn(['State:', state, request_state]);
 
-      if (state != request_state) {
+      if (state !== request_state) {
         console.log(
           "State mismatch, don't carry out the token request",
           state,
@@ -86,7 +88,7 @@ const Dashboard = ({ userInfo, isLoggedIn, loginPhoneSuccess }) => {
         redirect_uri,
         grant_type,
       };
-      //   console.log("token_endpoint", token_endpoint, qs.stringify(payload));
+
       return fetch(token_endpoint, {
         method: 'POST',
         headers: {
@@ -96,11 +98,15 @@ const Dashboard = ({ userInfo, isLoggedIn, loginPhoneSuccess }) => {
       })
         .then((resp) => resp.json())
         .then(async (user) => {
-          InAppBrowser.close();
-          loginPhoneSuccess(user);
+          if (user) {
+            dispatch(loginPhoneSuccess(user));
+          }
         })
         .catch((err) => {
-          console.warn('something went wrong', err);
+          console.log(['something went wrong-loginSuccess', err.message]);
+        })
+        .finally(() => {
+          InAppBrowser.close();
         });
     });
   };
@@ -109,11 +115,7 @@ const Dashboard = ({ userInfo, isLoggedIn, loginPhoneSuccess }) => {
     <View style={styles.container}>
       <ScrollView
         style={styles.wrap}
-        contentContainerStyle={{
-          flex: 1,
-          paddingTop: 30,
-          alignItems: 'center',
-        }}
+        contentContainerStyle={styles.wrapContent}
       >
         {isLoggedIn ? (
           <View style={styles.avatarBackground}>
@@ -150,85 +152,16 @@ const Dashboard = ({ userInfo, isLoggedIn, loginPhoneSuccess }) => {
           </View>
         )}
         <View style={styles.bottomVersion}>
-          <VersionText style={{ marginBottom: 0 }} />
+          <VersionText style={styles.version} />
         </View>
       </ScrollView>
     </View>
   );
 };
 
-const styles = StyleSheet.create({
-  wrap: {
-    backgroundColor: Colors.White,
-    flex: 1,
-    paddingBottom: 20,
-  },
-  container: {
-    flex: 1,
-    backgroundColor: Colors.White,
-  },
-  introduce: {
-    alignSelf: 'center',
-    marginTop: 30,
-    fontSize: 20,
-    lineHeight: 21,
-  },
-  logo: {
-    marginLeft: 16,
-    marginTop: 24,
-    marginBottom: 8,
-    width: 240,
-    height: 240,
-  },
-  avatarBackground: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  fullName: {
-    fontSize: 20,
-    marginTop: 10,
-    marginBottom: 10,
-  },
-  wrapBox: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginTop: 40,
-    marginHorizontal: 100,
-  },
-  box: {
-    flex: 1,
-    alignItems: 'center',
-  },
-  textLogo: {
-    marginTop: 12,
-    fontSize: 12,
-  },
-  welcome: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexWrap: 'wrap',
-  },
-  textWelcome: {
-    textAlign: 'center',
-    fontStyle: 'normal',
-    fontWeight: 'normal',
-    fontSize: 16,
-    lineHeight: 18,
-    alignItems: 'center',
-  },
-  bottomVersion: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'flex-end',
-  },
-});
-
 const mapStateToProps = (state) => ({
   isLoggedIn: state.auth.isLoggedIn,
   userInfo: state.auth.account.user || {},
 });
-const mapDispatchToProps = {
-  loginPhoneSuccess,
-};
-export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);
+
+export default connect(mapStateToProps)(Dashboard);

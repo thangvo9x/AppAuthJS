@@ -1,5 +1,7 @@
+/** @format */
+
 export const Colors = {
-  Primary: '#F08C31',
+  Primary: '#E87A26',
   Text: '#2D3742',
   LightPrimary: '#17483E',
   Image: '#ADB1B1',

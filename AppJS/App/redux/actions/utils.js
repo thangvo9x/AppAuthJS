@@ -1,3 +1,5 @@
+/** @format */
+
 const REQUEST = 'REQUEST';
 const SUCCESS = 'SUCCESS';
 const FAIL = 'FAIL';

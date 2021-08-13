@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react';
 import { Platform, Text, StyleSheet } from 'react-native';
 

@@ -1,17 +1,21 @@
-import React, { memo } from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
-import UserProfile from 'containers/UserProfile';
-import Routes from 'utils/route';
+/** @format */
 
-import { Colors } from 'configs';
 import { useNavigation } from '@react-navigation/native';
-import { LoginToolbar, MenuBurger } from 'components';
+import { createStackNavigator } from '@react-navigation/stack';
+import { LoginToolbar, Logo, MenuBurger } from 'components';
+import UserProfile from 'containers/UserProfile';
+import React, { memo } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { useSelector } from 'react-redux';
+import Routes from 'utils/route';
 
 const Stack = createStackNavigator();
 
 const UserProfileStack = memo(() => {
   const navigation = useNavigation();
-
+  const [isLoggedIn] = useSelector((state) => {
+    return [state.auth.isLoggedIn];
+  });
   return (
     <Stack.Navigator>
       <Stack.Screen
@@ -20,18 +24,26 @@ const UserProfileStack = memo(() => {
         options={{
           title: '',
           headerLeft: () => (
-            <MenuBurger onPress={() => navigation.toggleDrawer()} />
+            <View style={styles.rowLogo}>
+              {isLoggedIn && (
+                <MenuBurger onPress={() => navigation.toggleDrawer()} />
+              )}
+              <Logo />
+            </View>
           ),
           headerRight: () => <LoginToolbar />,
           headerTitleAlign: 'left',
-          headerStyle: {
-            backgroundColor: Colors.Gray2,
-            height: 80,
-          },
         }}
       />
     </Stack.Navigator>
   );
 });
-
+const styles = StyleSheet.create({
+  rowLogo: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingLeft: 15,
+  },
+});
 export default UserProfileStack;

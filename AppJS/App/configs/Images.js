@@ -1,3 +1,5 @@
+/** @format */
+
 export default {
   imgLogined: require('images/bg_logined.png'),
   bgHome: require('images/bg_home.png'),
