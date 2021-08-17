@@ -1,374 +1,465 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:1-32:12
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:1-32:12
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:1-32:12
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:1-32:12
-MERGED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:1-32:12
-MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:8:1-18:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-async-storage_async-storage] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-cookies_cookies] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/@react-native-cookies/cookies/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-app-auth] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-app-auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
-MERGED from [:react-native-safe-area-context] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
-MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e04f7c08aa5fc4303687c56edb95ec01/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [org.webkit:android-jsc:r245459] /Users/thang/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-reanimated/android/build/.transforms/adc624b145249dcf759592ba32251dbb/react-native-reanimated-63/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:15:1-46:12
-MERGED from [androidx.browser:browser:1.3.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ec208c392f1d51844b05fc658452bcef/browser-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.2.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/360b20f4452de14772d93f592b214e12/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from [hermes-debug.aar] /Users/thang/.gradle/caches/transforms-2/files-2.1/ef8536bbe7e060ab6f0677e3b54f8416/hermes-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/aca76e53781804da5458afb31bbcff6e/flipper-0.37.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/20a2f0ef48230040d7633b4b2f90a065/flipper-network-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/869c899542bb407c428706ea025f956a/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_cameraroll] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/cameraroll/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_geolocation] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_picker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_slider] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_toolbar-android] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-picker_picker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-picker/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-config] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-config/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-25:12
+MERGED from [:react-native-localize] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-pager-view] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-splash-screen] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-svg] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/c68c810d87f9329bc24749da18a890b6/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4fdaf9b139ee7ab5d62e738ab28aa6ae/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4df365b7dc54445a326e874a81dc5ce1/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-reanimated] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/54f7229c5e87f0eccf6431aed3593f9b/react-native-reanimated-63/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/bc54a317638a4f15ad8cc52e17f37526/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4848f7807a8a4485910f63d9334b5d51/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7ae02f7ebf527c83f4e927fabc23d0f1/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e21a46093e197c9874b8a2dd50b6926a/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7870992576753b7b9ed437afb97fdf16/drawee-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/495e024beef2ee2b9c54ded47ea6624a/nativeimagefilters-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/176151856d423f43411548207182d40d/memory-type-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/344290d59a55b7f57930db52dfc5f295/memory-type-java-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8d2b662e8355b16713771f800e5a7d0f/imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/68387cfa59f95b3638487b51dd7e4863/memory-type-ashmem-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ca254839549cfdacaf91406230b3abc/imagepipeline-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7283b13a0a8736c39e61dabb51b8da7e/nativeimagetranscoder-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0c15d7ba0a14beb14584630861a1e796/imagepipeline-base-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8e9eb884d61318c71dd2994f8a0f1ec3/soloader-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/15288b0e64c6e95aade666b9bb968b6f/soloader-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ddd477907c7d7a40770d1588c9e8215/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4a0e5611ad2164c8eea3e2d5eaca3b5e/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e59bdafc3263cf05ea0c059e44c0de02/browser-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1afa299c74b9cf194227ec2a729c69f4/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/f7e3676a86aeb760a8066a3878011974/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b134daf955aea7cf21cd8ea0f3cf3dca/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/12cedec114a703bdf8ff8722785b3908/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/8b706ed86e920e39fcfcb9fc24d96c70/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/5aafe3c0ed1321d4fa853480d2d0bcd9/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/75a9765a575bce6cd5061f51f62d31a1/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b0deea645f654c7bbd7a826c15ad4c1a/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4d919a3e62d68b4afa203898296cfe67/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ddd7be41f4051dd00933a12388250b1e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4d84d1fcedc294e2c14c2373fca59816/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6913357c7449ce1161f3b3222453bfaa/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e4067e183581b0d842915f7a79552677/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1d0f2f4680e7162fc967b2feb5f9f38d/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/48016a7700d8ebb905fa3286bbfc259a/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e4e6a58afa0a828026ce3f9cc1f17267/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7d03bece66c290dc89497d931e12ae82/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ff00f9d449f5ca5a686849c151bb1790/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/267ddb00e4ec5e325a1a5d08a777ce9e/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/017a9828408abbb68f12da9159515eac/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.sentry:sentry-android:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/8740605ed05f6c3d013c332494e25d03/sentry-android-5.1.0-beta.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.sentry:sentry-android-ndk:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e7a7a95141d5a134dcd248f1d20a3ddb/sentry-android-ndk-5.1.0-beta.2/AndroidManifest.xml:2:1-9:12
+MERGED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/57fdefa5e0d77690f69fa0573d50246c/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/fa3d2fc48000b73bf6103fe1d4e8c14e/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/456e70346378b6558dd316ba58c3ea9d/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2d35c6e7d905c30cbd2231d0b83bfccc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/9db6bef74a2c8ecd0f2b2417953a38ea/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/4b36b03008d89b1ece12e4ea7503eb60/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b09c733df282e9783c991e41e11108bf/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/feed9a51038bf82ca9d2b5aaadd6e935/ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:2:3-47
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:2:3-47
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:2:5-49
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:2:5-49
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:1-32:12
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:1-32:12
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:15:5-67
-MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:24:5-67
-MERGED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:24:5-67
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/aca76e53781804da5458afb31bbcff6e/flipper-0.37.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/aca76e53781804da5458afb31bbcff6e/flipper-0.37.0/AndroidManifest.xml:15:5-67
+MERGED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:9:5-67
+MERGED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:6:5-30:19
-MERGED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:6:5-30:19
-MERGED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:6:5-30:19
-MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-16:19
-MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-16:19
-MERGED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e04f7c08aa5fc4303687c56edb95ec01/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e04f7c08aa5fc4303687c56edb95ec01/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:26:5-44:19
-MERGED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:26:5-44:19
-MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:11:5-20
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:6:5-33:19
+MERGED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:6:5-33:19
+MERGED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:6:5-33:19
+MERGED from [:react-native-community_datetimepicker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-18:19
+MERGED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-18:19
+MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-23:19
+MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-23:19
+MERGED from [:react-native-splash-screen] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/c68c810d87f9329bc24749da18a890b6/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/c68c810d87f9329bc24749da18a890b6/jetified-react-native-0.63.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/15288b0e64c6e95aade666b9bb968b6f/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/15288b0e64c6e95aade666b9bb968b6f/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ddd477907c7d7a40770d1588c9e8215/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ddd477907c7d7a40770d1588c9e8215/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/48016a7700d8ebb905fa3286bbfc259a/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/48016a7700d8ebb905fa3286bbfc259a/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7d03bece66c290dc89497d931e12ae82/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7d03bece66c290dc89497d931e12ae82/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:11:5-23:19
+MERGED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:11:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/4b36b03008d89b1ece12e4ea7503eb60/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/4b36b03008d89b1ece12e4ea7503eb60/annotation-0.8.2/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/48016a7700d8ebb905fa3286bbfc259a/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:8:9-41
 	tools:ignore
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:7:75-114
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:7:75-114
 	tools:targetApi
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:7:54-74
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:10:7-34
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:10:7-34
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:10:9-36
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:10:9-36
 	android:theme
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:11:7-38
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:11:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:7:18-53
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:7:9-40
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:7:9-40
 activity#com.org.hungthinhcorp.id.mobilepoc.MainActivity
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:12:7-28:18
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:12:9-31:20
 	android:label
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:14:13-45
 	android:launchMode
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:16:13-44
 	android:windowSoftInputMode
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:17:13-55
 	android:configChanges
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:15:9-86
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:15:13-90
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:13:9-37
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:20:23-70
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:welcome+data:scheme:mobilepoc
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:22:11-27:27
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:20:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:mobilepoc
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:22:13-29:29
 action#android.intent.action.VIEW
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:23:15-67
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:23:23-64
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:24:15-74
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:25:17-76
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:24:25-71
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:25:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:25:15-76
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:26:17-78
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:25:25-73
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:26:27-75
 data
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:26:15-73
-	android:host
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:26:48-70
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:28:17-52
 	android:scheme
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:26:21-47
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:28:23-49
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:29:7-84
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:32:9-86
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml:29:17-81
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml:32:19-83
 uses-sdk
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-async-storage_async-storage] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-cookies_cookies] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/@react-native-cookies/cookies/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-cookies_cookies] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/@react-native-cookies/cookies/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-app-auth] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-app-auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-app-auth] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-app-auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e04f7c08aa5fc4303687c56edb95ec01/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e04f7c08aa5fc4303687c56edb95ec01/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [org.webkit:android-jsc:r245459] /Users/thang/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /Users/thang/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-reanimated/android/build/.transforms/adc624b145249dcf759592ba32251dbb/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-reanimated/android/build/.transforms/adc624b145249dcf759592ba32251dbb/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/559ddc4b7f576fedc63e05921b88e895/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0288f1bca211d259126211029f92054c/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/766471e6648d662c31b10c1bbc5126fe/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/57a87fccccbdbe36e69f72b01ce521f1/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0abe31decb23fc939dbab3bf21d1ccec/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/3b508a8e13388bdc4e88ee330cec4cdc/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/104429b66e46c675401dada578683150/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe90bfac000734a7d0d9c150b7915ff6/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/34efa7b8fb78d46cf2b753de7fbfc5a5/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/237bbc58c0787eee6b78f947e2baeeaa/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/65f592cbf7e10992754db73be6c6ba25/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:20:5-22:41
-MERGED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.3.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ec208c392f1d51844b05fc658452bcef/browser-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.3.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ec208c392f1d51844b05fc658452bcef/browser-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b1b165607eae60d70e4267b97e24514b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/28888a6f6660db47b3788df392c672a7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/efb592adf2592d134c27edc4a56e19d2/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8cd6316737e8f518184be95be51b9ee8/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.2.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/37aaca75d3d19faa6fb296103cea95d8/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c062602fe4e1f75f724363688044d993/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c99af001058cd5265376dded8456f828/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/40f1c5d439eea30faeaafe93e7bdf45f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/faa15558a5d57e35e462c9e1f0248694/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/89bcabef273c834c0566b445ed28172c/activity-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4300f0cd89d6453d731712a999b6e53f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e0a79d4379c4eef3803202a497c19313/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6bd464ed06f075f4e42b3fde6a89e60a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/3b41f2ef3d4a30256bbd9d1017371108/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2786c84c1e653e40bd67508414ca298f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/db36fbbf4470b1ce63fe644e40ae81d3/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/304e6293e0820147023aa187c0f862e1/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7ce8a2eb9e81825ec9bcc373c597a746/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/124ee19a63f3e171c196264ecc845daa/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4ce17f8b4390b23da9bedc3cee010ec1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/360b20f4452de14772d93f592b214e12/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/360b20f4452de14772d93f592b214e12/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/c114d4501470930b3986c4f9bd2da0fd/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml
+MERGED from [hermes-debug.aar] /Users/thang/.gradle/caches/transforms-2/files-2.1/ef8536bbe7e060ab6f0677e3b54f8416/hermes-debug/AndroidManifest.xml:5:5-44
+MERGED from [hermes-debug.aar] /Users/thang/.gradle/caches/transforms-2/files-2.1/ef8536bbe7e060ab6f0677e3b54f8416/hermes-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/aca76e53781804da5458afb31bbcff6e/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/aca76e53781804da5458afb31bbcff6e/flipper-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/20a2f0ef48230040d7633b4b2f90a065/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/20a2f0ef48230040d7633b4b2f90a065/flipper-network-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/869c899542bb407c428706ea025f956a/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/869c899542bb407c428706ea025f956a/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_cameraroll] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/cameraroll/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_cameraroll] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/cameraroll/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_geolocation] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/geolocation/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_slider] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_slider] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/slider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_toolbar-android] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_toolbar-android] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-picker_picker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-picker/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-picker_picker] /Users/thang/Projects/topenx-mobile-app/node_modules/@react-native-picker/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-config] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-config/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-config] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-config/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-localize] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-localize] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pager-view] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pager-view] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-pager-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/c68c810d87f9329bc24749da18a890b6/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/c68c810d87f9329bc24749da18a890b6/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4fdaf9b139ee7ab5d62e738ab28aa6ae/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4fdaf9b139ee7ab5d62e738ab28aa6ae/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4df365b7dc54445a326e874a81dc5ce1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4df365b7dc54445a326e874a81dc5ce1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:react-native-reanimated] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/54f7229c5e87f0eccf6431aed3593f9b/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-reanimated/android/build/.transforms/54f7229c5e87f0eccf6431aed3593f9b/react-native-reanimated-63/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/bc54a317638a4f15ad8cc52e17f37526/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/bc54a317638a4f15ad8cc52e17f37526/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4848f7807a8a4485910f63d9334b5d51/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4848f7807a8a4485910f63d9334b5d51/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7ae02f7ebf527c83f4e927fabc23d0f1/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7ae02f7ebf527c83f4e927fabc23d0f1/fresco-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e21a46093e197c9874b8a2dd50b6926a/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e21a46093e197c9874b8a2dd50b6926a/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7870992576753b7b9ed437afb97fdf16/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7870992576753b7b9ed437afb97fdf16/drawee-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/495e024beef2ee2b9c54ded47ea6624a/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/495e024beef2ee2b9c54ded47ea6624a/nativeimagefilters-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/176151856d423f43411548207182d40d/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/176151856d423f43411548207182d40d/memory-type-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/344290d59a55b7f57930db52dfc5f295/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/344290d59a55b7f57930db52dfc5f295/memory-type-java-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8d2b662e8355b16713771f800e5a7d0f/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8d2b662e8355b16713771f800e5a7d0f/imagepipeline-native-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/68387cfa59f95b3638487b51dd7e4863/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/68387cfa59f95b3638487b51dd7e4863/memory-type-ashmem-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ca254839549cfdacaf91406230b3abc/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ca254839549cfdacaf91406230b3abc/imagepipeline-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7283b13a0a8736c39e61dabb51b8da7e/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7283b13a0a8736c39e61dabb51b8da7e/nativeimagetranscoder-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0c15d7ba0a14beb14584630861a1e796/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/0c15d7ba0a14beb14584630861a1e796/imagepipeline-base-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8e9eb884d61318c71dd2994f8a0f1ec3/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/8e9eb884d61318c71dd2994f8a0f1ec3/soloader-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/15288b0e64c6e95aade666b9bb968b6f/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/15288b0e64c6e95aade666b9bb968b6f/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ddd477907c7d7a40770d1588c9e8215/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6ddd477907c7d7a40770d1588c9e8215/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4a0e5611ad2164c8eea3e2d5eaca3b5e/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4a0e5611ad2164c8eea3e2d5eaca3b5e/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e59bdafc3263cf05ea0c059e44c0de02/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e59bdafc3263cf05ea0c059e44c0de02/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1afa299c74b9cf194227ec2a729c69f4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1afa299c74b9cf194227ec2a729c69f4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/f7e3676a86aeb760a8066a3878011974/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/f7e3676a86aeb760a8066a3878011974/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b134daf955aea7cf21cd8ea0f3cf3dca/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b134daf955aea7cf21cd8ea0f3cf3dca/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/12cedec114a703bdf8ff8722785b3908/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/12cedec114a703bdf8ff8722785b3908/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/8b706ed86e920e39fcfcb9fc24d96c70/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/8b706ed86e920e39fcfcb9fc24d96c70/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/5aafe3c0ed1321d4fa853480d2d0bcd9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/5aafe3c0ed1321d4fa853480d2d0bcd9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/75a9765a575bce6cd5061f51f62d31a1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/75a9765a575bce6cd5061f51f62d31a1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b0deea645f654c7bbd7a826c15ad4c1a/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b0deea645f654c7bbd7a826c15ad4c1a/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4d919a3e62d68b4afa203898296cfe67/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4d919a3e62d68b4afa203898296cfe67/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ddd7be41f4051dd00933a12388250b1e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ddd7be41f4051dd00933a12388250b1e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4d84d1fcedc294e2c14c2373fca59816/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/4d84d1fcedc294e2c14c2373fca59816/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6913357c7449ce1161f3b3222453bfaa/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/6913357c7449ce1161f3b3222453bfaa/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e4067e183581b0d842915f7a79552677/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e4067e183581b0d842915f7a79552677/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1d0f2f4680e7162fc967b2feb5f9f38d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/1d0f2f4680e7162fc967b2feb5f9f38d/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/48016a7700d8ebb905fa3286bbfc259a/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/48016a7700d8ebb905fa3286bbfc259a/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e4e6a58afa0a828026ce3f9cc1f17267/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/e4e6a58afa0a828026ce3f9cc1f17267/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7d03bece66c290dc89497d931e12ae82/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/7d03bece66c290dc89497d931e12ae82/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ff00f9d449f5ca5a686849c151bb1790/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/ff00f9d449f5ca5a686849c151bb1790/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/267ddb00e4ec5e325a1a5d08a777ce9e/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/267ddb00e4ec5e325a1a5d08a777ce9e/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/017a9828408abbb68f12da9159515eac/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/017a9828408abbb68f12da9159515eac/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.sentry:sentry-android:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/8740605ed05f6c3d013c332494e25d03/sentry-android-5.1.0-beta.2/AndroidManifest.xml:6:5-9:57
+MERGED from [io.sentry:sentry-android:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/8740605ed05f6c3d013c332494e25d03/sentry-android-5.1.0-beta.2/AndroidManifest.xml:6:5-9:57
+MERGED from [io.sentry:sentry-android-ndk:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e7a7a95141d5a134dcd248f1d20a3ddb/sentry-android-ndk-5.1.0-beta.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.sentry:sentry-android-ndk:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/e7a7a95141d5a134dcd248f1d20a3ddb/sentry-android-ndk-5.1.0-beta.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/57fdefa5e0d77690f69fa0573d50246c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/57fdefa5e0d77690f69fa0573d50246c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/fa3d2fc48000b73bf6103fe1d4e8c14e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/fa3d2fc48000b73bf6103fe1d4e8c14e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/456e70346378b6558dd316ba58c3ea9d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/456e70346378b6558dd316ba58c3ea9d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2d35c6e7d905c30cbd2231d0b83bfccc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/2d35c6e7d905c30cbd2231d0b83bfccc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/9db6bef74a2c8ecd0f2b2417953a38ea/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/9db6bef74a2c8ecd0f2b2417953a38ea/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/4b36b03008d89b1ece12e4ea7503eb60/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/4b36b03008d89b1ece12e4ea7503eb60/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b09c733df282e9783c991e41e11108bf/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/b09c733df282e9783c991e41e11108bf/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/feed9a51038bf82ca9d2b5aaadd6e935/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/feed9a51038bf82ca9d2b5aaadd6e935/ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [io.sentry:sentry-android:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/8740605ed05f6c3d013c332494e25d03/sentry-android-5.1.0-beta.2/AndroidManifest.xml:9:9-54
 	android:targetSdkVersion
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:5:5-77
+ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from /Users/thang/Desktop/AppAuthJS/AppJS/android/app/src/debug/AndroidManifest.xml:5:22-75
+		ADDED from /Users/thang/Projects/topenx-mobile-app/android/app/src/debug/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:5-76
+ADDED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/aca76e53781804da5458afb31bbcff6e/flipper-0.37.0/AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:22-73
+		ADDED from [com.facebook.flipper:flipper:0.37.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/aca76e53781804da5458afb31bbcff6e/flipper-0.37.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-76
+meta-data#io.sentry.auto-init
+ADDED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-17:37
+	android:value
+		ADDED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-34
+	android:name
+		ADDED from [:sentry_react-native] /Users/thang/Projects/topenx-mobile-app/node_modules/@sentry/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-74
+queries
+ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-18:15
+intent
+ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-17:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-90
+	android:name
+		ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:21-87
 activity#com.proyecto26.inappbrowser.ChromeTabsManagerActivity
-ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-15:20
+ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-22:20
 	android:name
-		ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:19-87
+		ADDED from [:react-native-inappbrowser-reborn] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:19-87
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+		ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
 	android:exported
-		ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+		ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
 	android:resource
-		ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+		ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
 	android:name
-		ADDED from [:react-native-webview] /Users/thang/Desktop/AppAuthJS/AppJS/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
-activity#net.openid.appauth.AuthorizationManagementActivity
-ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:27:9-31:75
-	android:launchMode
-		ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:30:13-44
+		ADDED from [:react-native-webview] /Users/thang/Projects/topenx-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+provider#io.sentry.android.core.SentryInitProvider
+ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:14:9-17:40
+	android:authorities
+		ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:16:13-70
 	android:exported
-		ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:29:13-37
-	android:theme
-		ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:31:13-72
+		ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:28:13-78
-activity#net.openid.appauth.RedirectUriReceiverActivity
-ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:32:9-43:20
+		ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:15:13-69
+provider#io.sentry.android.core.SentryPerformanceProvider
+ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:18:9-22:39
+	android:authorities
+		ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:20:13-77
 	android:exported
-		ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:34:13-36
+		ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:21:13-37
+	android:initOrder
+		ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:33:13-74
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${appAuthRedirectScheme}
-ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:35:13-42:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.org.hungthinhcorp.id.mobilepoc
-ADDED from [net.openid:appauth:0.7.1] /Users/thang/.gradle/caches/transforms-2/files-2.1/d19d6ae56b254da95f89ce2d785e484d/jetified-appauth-0.7.1/AndroidManifest.xml:35:13-42:29
+		ADDED from [io.sentry:sentry-android-core:5.1.0-beta.2] /Users/thang/.gradle/caches/transforms-2/files-2.1/f6497ddc078ac4f428c1274a85b0f397/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:19:13-76
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/thang/.gradle/caches/transforms-2/files-2.1/177cf07d810a669e8ccc8f073a20eca0/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

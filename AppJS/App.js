@@ -1,5 +1,3 @@
-/** @format */
-
 import React from 'react';
 import { DevSettings } from 'react-native';
 import { Provider } from 'react-redux';
@@ -10,7 +8,9 @@ import AppWithNavigationState from 'navigations';
 
 import * as Sentry from '@sentry/react-native';
 import { useEffect } from 'react';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { axiosDebugger } from 'utils';
+import SplashScreen from 'react-native-splash-screen';
 
 Sentry.init({
   dsn:
@@ -21,10 +21,12 @@ Sentry.init({
 });
 
 const App = () => {
+  axiosDebugger();
   useEffect(() => {
     DevSettings.addMenuItem('Clear Storage', async () => {
       await AsyncStorage.clear();
     });
+    SplashScreen.hide();
   }, []);
   return (
     <Provider store={store}>

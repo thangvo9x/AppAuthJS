@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">TopenID</string>
+    <string name="app_name">TopenX</string>
+    <string name="welcome">Chào mừng bạn đến với</string>
+    <string name="version">Version 1.0.0</string>
 </resources>

@@ -2,7 +2,7 @@
 
 import { useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { LoginToolbar, Logo, MenuBurger } from 'components';
+import { ToolbarRight, Logo, MenuBurger } from 'components';
 import UserProfile from 'containers/UserProfile';
 import React, { memo } from 'react';
 import { StyleSheet, View } from 'react-native';
@@ -31,7 +31,7 @@ const UserProfileStack = memo(() => {
               <Logo />
             </View>
           ),
-          headerRight: () => <LoginToolbar />,
+          headerRight: () => <ToolbarRight />,
           headerTitleAlign: 'left',
         }}
       />

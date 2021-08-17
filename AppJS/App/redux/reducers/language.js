@@ -1,9 +1,10 @@
 /** @format */
 
 import { CHANGE_LANGUAGE } from 'actions/language';
+import { Constants } from 'configs';
 
 const initialState = {
-  currentLanguage: 'vi',
+  currentLanguage: Constants.LANGUAGE.DEFAULT,
 };
 
 export default (state = initialState, action) => {

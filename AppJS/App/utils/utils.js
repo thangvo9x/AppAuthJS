@@ -4,6 +4,7 @@ import Hashes from 'jshashes';
 import { Platform, StatusBar, Linking } from 'react-native';
 import { InAppBrowser } from 'react-native-inappbrowser-reborn';
 import { Colors } from 'configs';
+import Toast from 'react-native-toast-message';
 
 export const getDeepLink = (path = '') => {
   const scheme = 'mobilepoc';
@@ -109,4 +110,23 @@ export const tryDeepLinking = async (url) => {
     console.error(error);
     console.error('Something’s wrong with the app :(');
   }
+};
+
+export const ToastBottomHelper = {
+  success: (msg) => {
+    Toast.show({
+      type: 'success',
+      position: 'bottom',
+      text1: msg,
+      visibilityTime: 1000,
+    });
+  },
+  error: (msg) => {
+    Toast.show({
+      type: 'error',
+      position: 'bottom',
+      text1: msg,
+      visibilityTime: 1000,
+    });
+  },
 };

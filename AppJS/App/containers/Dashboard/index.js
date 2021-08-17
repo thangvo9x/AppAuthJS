@@ -1,31 +1,30 @@
 /** @format */
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { loginPhoneSuccess, logout } from 'actions/auth';
 import { Text, VersionText } from 'components';
 import { Config } from 'configs';
 import { t } from 'i18n-js';
 import qs from 'qs';
-import React, { useEffect } from 'react';
+import React, { memo, useEffect } from 'react';
 import { Linking, ScrollView, TouchableOpacity, View } from 'react-native';
 import { InAppBrowser } from 'react-native-inappbrowser-reborn';
 import { connect, useDispatch } from 'react-redux';
-
 import SvgDefaultAvatar from 'svgs/dashboard/SvgDefaultAvatar';
 import SvgTopenFintech from 'svgs/dashboard/SvgFintech';
 import SvgMobileApp from 'svgs/dashboard/SvgMobileApp';
 import SvgWelcome from 'svgs/dashboard/SvgWelcome';
 import URL from 'url-parse';
 import styles from './styles';
-import { loginPhoneSuccess, logout } from 'actions/auth';
 
-const Dashboard = ({ userInfo, isLoggedIn }) => {
+const Dashboard = memo(({ currentLanguage, userInfo, isLoggedIn }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     Linking.addEventListener('url', handleOpenUrl);
     Linking.getInitialURL().then((url) => {
-      // if (url) {
-      handleRedirectUri(url);
-      // }
+      if (url) {
+        handleRedirectUri(url);
+      }
     });
   }, []);
 
@@ -157,11 +156,12 @@ const Dashboard = ({ userInfo, isLoggedIn }) => {
       </ScrollView>
     </View>
   );
-};
+});
 
 const mapStateToProps = (state) => ({
   isLoggedIn: state.auth.isLoggedIn,
   userInfo: state.auth.account.user || {},
+  currentLanguage: state.language.currentLanguage,
 });
 
 export default connect(mapStateToProps)(Dashboard);

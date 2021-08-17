@@ -1,6 +1,6 @@
 /** @format */
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { applyMiddleware, compose, createStore } from 'redux';
 import logger from 'redux-logger';
 import Reactotron from 'reactotron-react-native';

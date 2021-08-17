@@ -1,20 +1,20 @@
 {
-    "logs": [
+  "logs": [
+    {
+      "outputFile": "/Users/thang/Projects/topenx-mobile-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+      "map": [
         {
-            "outputFile": "/Users/thang/Desktop/AppAuthJS/AppJS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
-            "map": [
-                {
-                    "source": "/Users/thang/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/values-watch-v21/values-watch-v21.xml",
-                    "from": {
-                        "startLines": "2,6,10",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,271,499",
-                        "endLines": "5,9,13",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "266,494,724"
-                    }
-                }
-            ]
+          "source": "/Users/thang/.gradle/caches/transforms-2/files-2.1/4a0e5611ad2164c8eea3e2d5eaca3b5e/appcompat-1.1.0/res/values-watch-v21/values-watch-v21.xml",
+          "from": {
+            "startLines": "2,6,10",
+            "startColumns": "4,4,4",
+            "startOffsets": "55,271,499",
+            "endLines": "5,9,13",
+            "endColumns": "12,12,12",
+            "endOffsets": "266,494,724"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

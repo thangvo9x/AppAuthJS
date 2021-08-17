@@ -12,8 +12,7 @@ export { default as VersionText } from './common/VersionText';
 
 export { default as Text } from './Text';
 
-export { default as LoginToolbar } from './Toolbar/Login';
-export { default as LanguageFlag } from './Toolbar/LanguageFlag';
+export { default as ToolbarRight } from './Toolbar/ToolbarRight';
 
 export { default as MenuBurger } from './Toolbar/MenuBurger';
 

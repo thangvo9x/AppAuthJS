@@ -2,21 +2,36 @@
 
 import { useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { LoginToolbar, Logo, MenuBurger } from 'components';
+import { Logo, MenuBurger, ToolbarRight } from 'components';
 import Dashboard from 'containers/Dashboard';
-import React, { memo } from 'react';
-import { View, StyleSheet } from 'react-native';
-
-import Routes from 'utils/route';
+import React, { memo, useEffect } from 'react';
+import { Linking, StyleSheet, View } from 'react-native';
 import { useSelector } from 'react-redux';
+import { setLocale } from 'utils/i18n';
+import Routes from 'utils/route';
 
 const Stack = createStackNavigator();
 
 const DashboardStack = memo(() => {
   const navigation = useNavigation();
+  const [currentLanguage] = useSelector((state) => {
+    return [state.language.currentLanguage];
+  });
 
   const [isLoggedIn] = useSelector((state) => {
     return [state.auth.isLoggedIn];
+  });
+
+  useEffect(() => {
+    setLocale(currentLanguage);
+  });
+
+  useEffect(() => {
+    return () => {
+      Linking.removeEventListener('url', () => {
+        console.log('removedEvenListener');
+      });
+    };
   });
 
   return (
@@ -34,7 +49,7 @@ const DashboardStack = memo(() => {
               <Logo />
             </View>
           ),
-          headerRight: () => <LoginToolbar />,
+          headerRight: () => <ToolbarRight />,
           headerTitleAlign: 'left',
         }}
       />

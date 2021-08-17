@@ -15,7 +15,7 @@ export const FONT_PREFIX = 'SVN-Gilroy';
 const { height: W_HEIGHT, width: W_WIDTH } = Dimensions.get('window');
 export const LANGUAGE = {
   English: { label: 'English (EN)', code: 'en' },
-  Vietnamese: { label: 'Tiếng Việt (VN)', value: 'vi' },
+  Vietnamese: { label: 'Tiếng Việt (VN)', code: 'vi' },
   DEFAULT: 'vi',
 };
 
@@ -53,8 +53,8 @@ export const LINK_TYPE = {
 };
 
 export const PACKAGE_NAME = Platform.select({
-  ios: 'com.eohmobile',
-  android: 'com.eoh.eohmobile',
+  ios: 'com.org.hungthinhcorp.id.mobilepoc',
+  android: 'com.org.hungthinhcorp.id.mobilepoc',
 });
 
 export const DEEP_LINK = {
